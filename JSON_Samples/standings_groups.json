@@ -1,0 +1,412 @@
+{
+    "standings": {
+        "entries": [
+            {
+                "team": "Seattle",
+                "link": "https://www.espn.com/nfl/team/_/name/sea/seattle-seahawks",
+                "id": "26",
+                "uid": "s:20~l:28~t:26",
+                "stats": [
+                    {
+                        "name": "losses",
+                        "displayName": "Losses",
+                        "shortDisplayName": "L",
+                        "description": "Losses",
+                        "abbreviation": "L",
+                        "type": "losses",
+                        "value": 5,
+                        "displayValue": "5"
+                    },
+                    {
+                        "name": "pointsAgainst",
+                        "displayName": "Points Against",
+                        "shortDisplayName": "PA",
+                        "description": "Total Points Against",
+                        "abbreviation": "PA",
+                        "type": "pointsagainst",
+                        "value": 283,
+                        "displayValue": "283"
+                    },
+                    {
+                        "name": "pointsFor",
+                        "displayName": "Points For",
+                        "shortDisplayName": "PF",
+                        "description": "Total Points For",
+                        "abbreviation": "PF",
+                        "type": "pointsfor",
+                        "value": 302,
+                        "displayValue": "302"
+                    },
+                    {
+                        "name": "ties",
+                        "displayName": "Ties",
+                        "shortDisplayName": "T",
+                        "description": "Ties",
+                        "abbreviation": "T",
+                        "type": "ties",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "winPercent",
+                        "displayName": "Win Percentage",
+                        "shortDisplayName": "PCT",
+                        "description": "Winning Percentage",
+                        "abbreviation": "PCT",
+                        "type": "winpercent",
+                        "value": 0.61538464,
+                        "displayValue": ".615"
+                    },
+                    {
+                        "name": "wins",
+                        "displayName": "Wins",
+                        "shortDisplayName": "W",
+                        "description": "Wins",
+                        "abbreviation": "W",
+                        "type": "wins",
+                        "value": 8,
+                        "displayValue": "8"
+                    },
+                    {
+                        "id": "0",
+                        "name": "overall",
+                        "abbreviation": "Any",
+                        "type": "total",
+                        "summary": "8-5",
+                        "displayValue": "8-5"
+                    }
+                ],
+                "logo": [
+                    {
+                        "href": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+                        "width": 500,
+                        "height": 500,
+                        "alt": "",
+                        "rel": [
+                            "full",
+                            "default"
+                        ],
+                        "lastUpdated": "2024-06-25T18:57Z"
+                    },
+                    {
+                        "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/sea.png",
+                        "width": 500,
+                        "height": 500,
+                        "alt": "",
+                        "rel": [
+                            "full",
+                            "scoreboard",
+                            "dark"
+                        ],
+                        "lastUpdated": "2024-06-25T18:57Z"
+                    }
+                ]
+            },
+            {
+                "team": "Los Angeles",
+                "link": "https://www.espn.com/nfl/team/_/name/lar/los-angeles-rams",
+                "id": "14",
+                "uid": "s:20~l:28~t:14",
+                "stats": [
+                    {
+                        "name": "losses",
+                        "displayName": "Losses",
+                        "shortDisplayName": "L",
+                        "description": "Losses",
+                        "abbreviation": "L",
+                        "type": "losses",
+                        "value": 6,
+                        "displayValue": "6"
+                    },
+                    {
+                        "name": "pointsAgainst",
+                        "displayName": "Points Against",
+                        "shortDisplayName": "PA",
+                        "description": "Total Points Against",
+                        "abbreviation": "PA",
+                        "type": "pointsagainst",
+                        "value": 338,
+                        "displayValue": "338"
+                    },
+                    {
+                        "name": "pointsFor",
+                        "displayName": "Points For",
+                        "shortDisplayName": "PF",
+                        "description": "Total Points For",
+                        "abbreviation": "PF",
+                        "type": "pointsfor",
+                        "value": 310,
+                        "displayValue": "310"
+                    },
+                    {
+                        "name": "ties",
+                        "displayName": "Ties",
+                        "shortDisplayName": "T",
+                        "description": "Ties",
+                        "abbreviation": "T",
+                        "type": "ties",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "winPercent",
+                        "displayName": "Win Percentage",
+                        "shortDisplayName": "PCT",
+                        "description": "Winning Percentage",
+                        "abbreviation": "PCT",
+                        "type": "winpercent",
+                        "value": 0.5714286,
+                        "displayValue": ".571"
+                    },
+                    {
+                        "name": "wins",
+                        "displayName": "Wins",
+                        "shortDisplayName": "W",
+                        "description": "Wins",
+                        "abbreviation": "W",
+                        "type": "wins",
+                        "value": 8,
+                        "displayValue": "8"
+                    },
+                    {
+                        "id": "0",
+                        "name": "overall",
+                        "abbreviation": "Any",
+                        "type": "total",
+                        "summary": "8-6",
+                        "displayValue": "8-6"
+                    }
+                ],
+                "logo": [
+                    {
+                        "href": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+                        "width": 500,
+                        "height": 500,
+                        "alt": "",
+                        "rel": [
+                            "full",
+                            "default"
+                        ],
+                        "lastUpdated": "2024-06-25T18:52Z"
+                    },
+                    {
+                        "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/lar.png",
+                        "width": 500,
+                        "height": 500,
+                        "alt": "",
+                        "rel": [
+                            "full",
+                            "scoreboard",
+                            "dark"
+                        ],
+                        "lastUpdated": "2024-06-25T18:59Z"
+                    }
+                ]
+            },
+            {
+                "team": "Arizona",
+                "link": "https://www.espn.com/nfl/team/_/name/ari/arizona-cardinals",
+                "id": "22",
+                "uid": "s:20~l:28~t:22",
+                "stats": [
+                    {
+                        "name": "losses",
+                        "displayName": "Losses",
+                        "shortDisplayName": "L",
+                        "description": "Losses",
+                        "abbreviation": "L",
+                        "type": "losses",
+                        "value": 7,
+                        "displayValue": "7"
+                    },
+                    {
+                        "name": "pointsAgainst",
+                        "displayName": "Points Against",
+                        "shortDisplayName": "PA",
+                        "description": "Total Points Against",
+                        "abbreviation": "PA",
+                        "type": "pointsagainst",
+                        "value": 289,
+                        "displayValue": "289"
+                    },
+                    {
+                        "name": "pointsFor",
+                        "displayName": "Points For",
+                        "shortDisplayName": "PF",
+                        "description": "Total Points For",
+                        "abbreviation": "PF",
+                        "type": "pointsfor",
+                        "value": 284,
+                        "displayValue": "284"
+                    },
+                    {
+                        "name": "ties",
+                        "displayName": "Ties",
+                        "shortDisplayName": "T",
+                        "description": "Ties",
+                        "abbreviation": "T",
+                        "type": "ties",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "winPercent",
+                        "displayName": "Win Percentage",
+                        "shortDisplayName": "PCT",
+                        "description": "Winning Percentage",
+                        "abbreviation": "PCT",
+                        "type": "winpercent",
+                        "value": 0.46153846,
+                        "displayValue": ".462"
+                    },
+                    {
+                        "name": "wins",
+                        "displayName": "Wins",
+                        "shortDisplayName": "W",
+                        "description": "Wins",
+                        "abbreviation": "W",
+                        "type": "wins",
+                        "value": 6,
+                        "displayValue": "6"
+                    },
+                    {
+                        "id": "0",
+                        "name": "overall",
+                        "abbreviation": "Any",
+                        "type": "total",
+                        "summary": "6-7",
+                        "displayValue": "6-7"
+                    }
+                ],
+                "logo": [
+                    {
+                        "href": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+                        "width": 500,
+                        "height": 500,
+                        "alt": "",
+                        "rel": [
+                            "full",
+                            "default"
+                        ],
+                        "lastUpdated": "2024-06-25T18:43Z"
+                    },
+                    {
+                        "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/ari.png",
+                        "width": 500,
+                        "height": 500,
+                        "alt": "",
+                        "rel": [
+                            "full",
+                            "scoreboard",
+                            "dark"
+                        ],
+                        "lastUpdated": "2024-06-25T18:43Z"
+                    }
+                ]
+            },
+            {
+                "team": "San Francisco",
+                "link": "https://www.espn.com/nfl/team/_/name/sf/san-francisco-49ers",
+                "id": "25",
+                "uid": "s:20~l:28~t:25",
+                "stats": [
+                    {
+                        "name": "losses",
+                        "displayName": "Losses",
+                        "shortDisplayName": "L",
+                        "description": "Losses",
+                        "abbreviation": "L",
+                        "type": "losses",
+                        "value": 8,
+                        "displayValue": "8"
+                    },
+                    {
+                        "name": "pointsAgainst",
+                        "displayName": "Points Against",
+                        "shortDisplayName": "PA",
+                        "description": "Total Points Against",
+                        "abbreviation": "PA",
+                        "type": "pointsagainst",
+                        "value": 320,
+                        "displayValue": "320"
+                    },
+                    {
+                        "name": "pointsFor",
+                        "displayName": "Points For",
+                        "shortDisplayName": "PF",
+                        "description": "Total Points For",
+                        "abbreviation": "PF",
+                        "type": "pointsfor",
+                        "value": 314,
+                        "displayValue": "314"
+                    },
+                    {
+                        "name": "ties",
+                        "displayName": "Ties",
+                        "shortDisplayName": "T",
+                        "description": "Ties",
+                        "abbreviation": "T",
+                        "type": "ties",
+                        "value": 0,
+                        "displayValue": "0"
+                    },
+                    {
+                        "name": "winPercent",
+                        "displayName": "Win Percentage",
+                        "shortDisplayName": "PCT",
+                        "description": "Winning Percentage",
+                        "abbreviation": "PCT",
+                        "type": "winpercent",
+                        "value": 0.42857143,
+                        "displayValue": ".429"
+                    },
+                    {
+                        "name": "wins",
+                        "displayName": "Wins",
+                        "shortDisplayName": "W",
+                        "description": "Wins",
+                        "abbreviation": "W",
+                        "type": "wins",
+                        "value": 6,
+                        "displayValue": "6"
+                    },
+                    {
+                        "id": "0",
+                        "name": "overall",
+                        "abbreviation": "Any",
+                        "type": "total",
+                        "summary": "6-8",
+                        "displayValue": "6-8"
+                    }
+                ],
+                "logo": [
+                    {
+                        "href": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+                        "width": 500,
+                        "height": 500,
+                        "alt": "",
+                        "rel": [
+                            "full",
+                            "default"
+                        ],
+                        "lastUpdated": "2024-06-25T18:56Z"
+                    },
+                    {
+                        "href": "https://a.espncdn.com/i/teamlogos/nfl/500-dark/scoreboard/sf.png",
+                        "width": 500,
+                        "height": 500,
+                        "alt": "",
+                        "rel": [
+                            "full",
+                            "scoreboard",
+                            "dark"
+                        ],
+                        "lastUpdated": "2024-06-25T18:57Z"
+                    }
+                ]
+            }
+        ]
+    },
+    "header": "2024 NFC West Standings",
+    "href": "https://www.espn.com/nfl/standings/_/group/3"
+}
