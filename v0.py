@@ -2,6 +2,8 @@ import reqESPN
 import pandas as pd
 from pprint import pprint
 import parseESPN
+from time import time
+import logging
 
 plyr_kys = pd.read_csv('/Users/danielgilmore/Scripts/ESPN/player_id .csv')
 
@@ -49,11 +51,11 @@ def prev_sched(sched):
     return d8s
 
 def team_pipeline(abbreviation:str):
-    
+    start_pipeline = time()
     tm_id = lookup_team_id(abbreviation=abbreviation)
 
     sched = reqESPN.get_tmSched(tm_id)
-
+    sched_time = time() - start_pipeline
     ps = prev_sched(sched)
 
     ids = [x['id'] for x in ps]

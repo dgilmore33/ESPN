@@ -114,3 +114,15 @@ def summary_to_player(summ):
     return parse_gm_box_player(
         sp
     )
+
+def parse_gm_box_team(js):
+    if type(js) == str:
+        js = json.loads(js)
+    gm = {}
+    for ob in js:
+        js_tm = ob['team']
+
+        tmStats = {x['name']:x['displayValue'] for x in js_tm['statistics']}
+        gm[js_tm['displayName']] = tmStats
+
+    return gm

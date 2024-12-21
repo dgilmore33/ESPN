@@ -1,1 +1,144 @@
-{"team": {"id": "22", "uid": "s:20~l:28~t:22", "slug": "arizona-cardinals", "location": "Arizona", "name": "Cardinals", "abbreviation": "ARI", "displayName": "Arizona Cardinals", "shortDisplayName": "Cardinals", "color": "A40227", "alternateColor": "ffffff", "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png"}, "statistics": [{"name": "firstDowns", "displayValue": "22", "label": "1st Downs"}, {"name": "firstDownsPassing", "displayValue": "13", "label": "Passing 1st downs"}, {"name": "firstDownsRushing", "displayValue": "8", "label": "Rushing 1st downs"}, {"name": "firstDownsPenalty", "displayValue": "1", "label": "1st downs from penalties"}, {"name": "thirdDownEff", "displayValue": "4-11", "label": "3rd down efficiency"}, {"name": "fourthDownEff", "displayValue": "0-1", "label": "4th down efficiency"}, {"name": "totalOffensivePlays", "displayValue": "69", "label": "Total Plays"}, {"name": "totalYards", "displayValue": "339", "label": "Total Yards"}, {"name": "yardsPerPlay", "displayValue": "4.9", "label": "Yards per Play"}, {"name": "totalDrives", "displayValue": "9", "label": "Total Drives"}, {"name": "netPassingYards", "displayValue": "213", "label": "Passing"}, {"name": "completionAttempts", "displayValue": "24/40", "label": "Comp/Att"}, {"name": "yardsPerPass", "displayValue": "5.1", "label": "Yards per pass"}, {"name": "interceptions", "displayValue": "0", "label": "Interceptions thrown"}, {"name": "sacksYardsLost", "displayValue": "2-9", "label": "Sacks-Yards Lost"}, {"name": "rushingYards", "displayValue": "126", "label": "Rushing"}, {"name": "rushingAttempts", "displayValue": "27", "label": "Rushing Attempts"}, {"name": "yardsPerRushAttempt", "displayValue": "4.7", "label": "Yards per rush"}, {"name": "redZoneAttempts", "displayValue": "1-4", "label": "Red Zone (Made-Att)"}, {"name": "totalPenaltiesYards", "displayValue": "8-50", "label": "Penalties"}, {"name": "turnovers", "displayValue": "0", "label": "Turnovers"}, {"name": "fumblesLost", "displayValue": "0", "label": "Fumbles lost"}, {"name": "interceptions", "displayValue": "0", "label": "Interceptions thrown"}, {"name": "defensiveTouchdowns", "displayValue": "0", "label": "Defensive / Special Teams TDs"}, {"name": "possessionTime", "displayValue": "27:36", "label": "Possession"}], "displayOrder": 1, "homeAway": "away"}
+{
+    "team": {
+        "id": "22",
+        "uid": "s:20~l:28~t:22",
+        "slug": "arizona-cardinals",
+        "location": "Arizona",
+        "name": "Cardinals",
+        "abbreviation": "ARI",
+        "displayName": "Arizona Cardinals",
+        "shortDisplayName": "Cardinals",
+        "color": "A40227",
+        "alternateColor": "ffffff",
+        "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png"
+    },
+    "statistics": [
+        {
+            "name": "firstDowns",
+            "displayValue": "22",
+            "label": "1st Downs"
+        },
+        {
+            "name": "firstDownsPassing",
+            "displayValue": "13",
+            "label": "Passing 1st downs"
+        },
+        {
+            "name": "firstDownsRushing",
+            "displayValue": "8",
+            "label": "Rushing 1st downs"
+        },
+        {
+            "name": "firstDownsPenalty",
+            "displayValue": "1",
+            "label": "1st downs from penalties"
+        },
+        {
+            "name": "thirdDownEff",
+            "displayValue": "4-11",
+            "label": "3rd down efficiency"
+        },
+        {
+            "name": "fourthDownEff",
+            "displayValue": "0-1",
+            "label": "4th down efficiency"
+        },
+        {
+            "name": "totalOffensivePlays",
+            "displayValue": "69",
+            "label": "Total Plays"
+        },
+        {
+            "name": "totalYards",
+            "displayValue": "339",
+            "label": "Total Yards"
+        },
+        {
+            "name": "yardsPerPlay",
+            "displayValue": "4.9",
+            "label": "Yards per Play"
+        },
+        {
+            "name": "totalDrives",
+            "displayValue": "9",
+            "label": "Total Drives"
+        },
+        {
+            "name": "netPassingYards",
+            "displayValue": "213",
+            "label": "Passing"
+        },
+        {
+            "name": "completionAttempts",
+            "displayValue": "24/40",
+            "label": "Comp/Att"
+        },
+        {
+            "name": "yardsPerPass",
+            "displayValue": "5.1",
+            "label": "Yards per pass"
+        },
+        {
+            "name": "interceptions",
+            "displayValue": "0",
+            "label": "Interceptions thrown"
+        },
+        {
+            "name": "sacksYardsLost",
+            "displayValue": "2-9",
+            "label": "Sacks-Yards Lost"
+        },
+        {
+            "name": "rushingYards",
+            "displayValue": "126",
+            "label": "Rushing"
+        },
+        {
+            "name": "rushingAttempts",
+            "displayValue": "27",
+            "label": "Rushing Attempts"
+        },
+        {
+            "name": "yardsPerRushAttempt",
+            "displayValue": "4.7",
+            "label": "Yards per rush"
+        },
+        {
+            "name": "redZoneAttempts",
+            "displayValue": "1-4",
+            "label": "Red Zone (Made-Att)"
+        },
+        {
+            "name": "totalPenaltiesYards",
+            "displayValue": "8-50",
+            "label": "Penalties"
+        },
+        {
+            "name": "turnovers",
+            "displayValue": "0",
+            "label": "Turnovers"
+        },
+        {
+            "name": "fumblesLost",
+            "displayValue": "0",
+            "label": "Fumbles lost"
+        },
+        {
+            "name": "interceptions",
+            "displayValue": "0",
+            "label": "Interceptions thrown"
+        },
+        {
+            "name": "defensiveTouchdowns",
+            "displayValue": "0",
+            "label": "Defensive / Special Teams TDs"
+        },
+        {
+            "name": "possessionTime",
+            "displayValue": "27:36",
+            "label": "Possession"
+        }
+    ],
+    "displayOrder": 1,
+    "homeAway": "away"
+}
