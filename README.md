@@ -10,7 +10,7 @@ A brief description of files is below
 * `notes.md`: these notes are on json responses. They are to be updated continuosly and moved into an appropriate location when development matures
 * `parseESPN.py`: this file is intended to house methods for parsing requests from the ESPN API. The goal is to fulfill a single-responsibility requirement for a microservice architecture. This will help when moving the app to AWS for prod
 * `player_id.csv`: a csv of player ids. Used in `v0.py`
-* `reqESPN.py`: this file is intended to make HTTP requests to the ESPN API endpoints. This library will need to be cleaned extensively to fulfill a single-responsibility requirement
+* `reqESPN.py`: this file is intended to make HTTP requests to the ESPN API endpoints. This library will need to remain clean to fulfill a single-responsibility requirement
 * `team_id.csv`: a csv of team ids
 * `tst.py`: same purpose as `drive.py`
 * `v0.py`: a file designed to imitate the desired prod workflow. This could be considered a lazy man's DEV branch, whereas `tst.py` & `drive.py` are lazy TEST branches

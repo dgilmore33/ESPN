@@ -18,24 +18,14 @@ lookup_team_id = lambda abbreviation: team_kys[team_kys['TEAM ABBREVIATION'] == 
         'filters', 'teams', 'categories', 'glossary'
 
 """
-
 def get_player_data(name):
-    return lookup_player(plyr_kys[plyr_kys['Name'] == name].values[0][0])
+    return lookup_player(plyr_kys[plyr_kys['Name'] == name]\
+                         .values[0][0])
 
-
-
-
-# Bad Function
-
-# def parse_player_cats(json):
-#     cats = json['categories']
-
-#     zipStats = lambda statlst, lbl : { k : v for k, v in zip(lbl, statlst)} 
-
-#     statPack = { x['name'] : zipStats(x['totals'], x['labels']) for x in cats }
-
-#     return statPack
-
+"""
+input: string response from ESPN API TODO:: find references
+output: a list of objects that represent games before today's date
+"""
 def prev_sched(sched):
     from datetime import date, datetime
 
@@ -50,7 +40,14 @@ def prev_sched(sched):
 
     return d8s
 
+"""
+input: team abbreviation in uppercase
+output: list<dict> of games that hvae occurred before today
+TODO:: find name that more fittingly describes parsing of player, not team boxscore
+       will require finding references to function
+"""
 def team_pipeline(abbreviation:str):
+    abbreviation = abbreviation.upper()
     start_pipeline = time()
     tm_id = lookup_team_id(abbreviation=abbreviation)
 
@@ -65,8 +62,11 @@ def team_pipeline(abbreviation:str):
     plyr_box_scores = [parseESPN.summary_to_player(gm) for gm in gms]
 
     return plyr_box_scores
-    # return(ps)
 
+"""
+input: category of team stats for a single game from the `team_pipeline` function
+output: Pandas DataFrame
+"""
 def bld_df_from_player_stats(st):
     df = pd.DataFrame()
     for a, s in st['athleteStats'].items():

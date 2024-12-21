@@ -1,9 +1,9 @@
 import v0
+import pandas as pd
 
 bal = v0.team_pipeline("BAL")
 
 def bld_df_from_player_stats(st):
-    import pandas as pd
     # import pdb; pdb.set_trace()
     df = pd.DataFrame()
     for a, s in st['athleteStats'].items():
